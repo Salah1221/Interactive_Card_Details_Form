@@ -230,7 +230,7 @@ label {
 
 .input-wrapper {
   --border-radius: 10px;
-  --border-width: 1px;
+  --border-width: min(1px, 0.052vw);
   position: relative;
   isolation: isolate;
 }

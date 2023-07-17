@@ -151,4 +151,5 @@ button.addEventListener("click", (e) => {
       formSubmitted.classList.add("appear");
     }, 900);
   }
+  if (e.target.textContent === "Continue") location.reload();
 });
