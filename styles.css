@@ -475,6 +475,7 @@ p {
   }
   .input-wrapper {
     --border-radius: 8px;
+    --border-width: 1px;
   }
   .form-submitted {
     width: 100%;

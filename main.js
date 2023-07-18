@@ -65,7 +65,7 @@ const inputValidation = () => {
         break;
       case "name-wrapper":
         isEmpty[0] = cardName.value === "";
-        isValid[0] = !cardName.value.match(/\d|_|\W/g);
+        isValid[0] = !cardName.value.match(/\d/g);
         invalidMessage = "Invalid name, letters only";
         showOrHideMsgBox(el, isEmpty[0], isValid[0], invalidMessage);
         break;
